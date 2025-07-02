@@ -1,3 +1,36 @@
 * {
     font-family: 'Courier New', monospace;
 }
+
+body {
+    background-color: #6666ff;
+}
+
+header {
+    width: 80%;
+    background-color: #9999ff;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px #3333ff;
+}
+
+#header-nav {
+    padding: 30px;
+    text-align: center;
+}
+
+.header-links {
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 20px;
+    color: #1a1aff;
+    border-radius: 10px;
+}
+
+.header-links:visited {
+    color: #1a1aff;
+}
+
+.header-links:hover {
+    background-color: #b3b3ff;
+}
