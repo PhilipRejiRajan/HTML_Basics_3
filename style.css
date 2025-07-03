@@ -42,6 +42,7 @@ header {
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 10px 5px #3333ff;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -81,6 +82,29 @@ tr {
     text-align: center;
 }
 
-#skills-section {
-    padding-bottom: 20px;
+#contact-form {
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    background-color: #ccccff;
+    border-radius: 10px;
+    border: 2px solid #000099;
+    box-shadow: 7px 0px 5px #3333ff;
+}
+
+.form-labels {
+    padding: 5px;
+    color: #000099;
+}
+
+.form-inputs {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#form-submit {
+    width: 120px;
+    height: 45%;
+    background-color: #b3b3ff;
 }
