@@ -111,13 +111,12 @@ tr {
     background-color: #b3b3ff;
 }
 
-iframe {
+#demo-iframe {
     width: 900px;
     height: 600px;
-}
-
-#video-embed-div {
-    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #000099;
+    box-shadow: 7px 0px 5px #3333ff;
 }
 
 footer {
