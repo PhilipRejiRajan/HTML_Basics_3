@@ -7,11 +7,13 @@ body {
 }
 
 header {
-    width: 80%;
+    width: 90%;
     background-color: #9999ff;
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 10px 5px #3333ff;
+    position: sticky;
+    top: 0;
 }
 
 #header-nav {
@@ -107,4 +109,25 @@ tr {
     width: 120px;
     height: 45%;
     background-color: #b3b3ff;
+}
+
+iframe {
+    width: 900px;
+    height: 600px;
+}
+
+#video-embed-div {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #9999ff;
+    margin-top: 20px;
+}
+
+#footer-para {
+    margin: 0;
+    padding: 10px;
+    color: #000099;
 }
